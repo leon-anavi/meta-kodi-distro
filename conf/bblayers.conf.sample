@@ -9,14 +9,14 @@ BBLAYERS ?= " \
   ##OEROOT##/meta \
   ##OEROOT##/meta-poky \
   ##OEROOT##/meta-yocto-bsp \
-  ##OEROOT##/meta-openembedded/meta-oe \
-  ##OEROOT##/meta-openembedded/meta-python \
-  ##OEROOT##/meta-openembedded/meta-multimedia \
-  ##OEROOT##/meta-openembedded/meta-filesystems \
-  ##OEROOT##/meta-openembedded/meta-networking \
-  ##OEROOT##/meta-raspberrypi \
-  ##OEROOT##/meta-kodi \
-  ##OEROOT##/meta-python2 \
-  ##OEROOT##/meta-kodi-raspberrypi \
-  ##OEROOT##/meta-kodi-distro \
+  ##OEROOT##/../meta-openembedded/meta-oe \
+  ##OEROOT##/../meta-openembedded/meta-python \
+  ##OEROOT##/../meta-openembedded/meta-multimedia \
+  ##OEROOT##/../meta-openembedded/meta-filesystems \
+  ##OEROOT##/../meta-openembedded/meta-networking \
+  ##OEROOT##/../meta-raspberrypi \
+  ##OEROOT##/../meta-kodi \
+  ##OEROOT##/../meta-python2 \
+  ##OEROOT##/../meta-kodi-raspberrypi \
+  ##OEROOT##/../meta-kodi-distro \
   "
