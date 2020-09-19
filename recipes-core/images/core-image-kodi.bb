@@ -64,7 +64,7 @@ IMAGE_INSTALL_append = " \
 
 # Install network managers
 IMAGE_INSTALL_append = " \
-	networkmanager networkmanager-nmtui \
+	connman connman-client \
 "
 
 # Enable SSH access
