@@ -4,7 +4,7 @@ include recipes-core/images/core-image-base.bb
 # Only allow for machines which start with "rpi"
 COMPATIBLE_MACHINE = "^rpi$"
 
-# Install kodi
+# Install kodi and related components
 IMAGE_INSTALL_append = " \
 	kodi \
 	omxplayer \
@@ -14,6 +14,10 @@ IMAGE_INSTALL_append = " \
 	libswresample \
 	glibc-utils \
 	localedef \
+	connman connman-client \
+	kodi-addon-libreelec-settings \
+	curl \
+	samba-base \
 "
 
 # Install language packs
@@ -60,11 +64,6 @@ IMAGE_INSTALL_append = " \
 	locale-base-en-us \
 	locale-base-pl-pl \
 	locale-base-pl-pl.iso-8859-2 \
-"
-
-# Install network managers
-IMAGE_INSTALL_append = " \
-	connman connman-client \
 "
 
 # Enable SSH access
